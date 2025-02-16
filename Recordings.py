@@ -14,3 +14,6 @@ st.write("Bassoonist's Holiday performed by Reed Rage Bassoon Quartet")
 
 st.video("https://www.youtube.com/watch?v=digkZaPR8cc")
 st.write("Last Tango in Bayreuth performed by Stony Brook University Frank Morelli Bassoon Studio")
+
+st.video("https://www.youtube.com/watch?v=VMCvbQers90")
+st.write("Adagio for Bassoon performed by Kris King")

@@ -4,10 +4,12 @@ import pandas as pd
 
 st.title("Extras")
 
-instrumentlist = ["Clarinet","Flute", "Trumpet", "Violin", "French Horn", "Bassoon"]
+instrumentlist = ["Choose answer","Clarinet","Flute", "Trumpet", "Violin", "French Horn", "Bassoon"]
 choice= st.selectbox("What is the best Instrument?",instrumentlist)
-if choice == instrumentlist[5]:
+if choice == instrumentlist[6]:
     st.write("Correct!")
+elif choice == instrumentlist[0]:
+    st.write("Choose answer")
 else:
     st.write("WRONG TRY AGAIN")
 
